@@ -41,4 +41,3 @@ def turn(board, index, value="X")
 
 end
 end
-end
