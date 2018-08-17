@@ -40,7 +40,7 @@ def turn(board)
 	  display_board(board)
   else
    if valid_move?(board, index) == nil
-
+  
     puts turn
       end
 
