@@ -43,5 +43,6 @@ def turn(board)
     loop do
     until move_valid == true
         puts turn
-      end
+    end  
+    end
 end
