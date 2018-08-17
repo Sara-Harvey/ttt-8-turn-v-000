@@ -40,9 +40,10 @@ def turn(board)
 	  display_board(board)
   else
    if valid_move?(board, index) == nil
-  
-    puts turn
+    loop do
+    until move_valid == true
+      if move_valid == false
+        return turn
       end
-
 end
 end
