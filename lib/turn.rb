@@ -42,7 +42,6 @@ def turn(board)
     loop do
     until valid_move?(board, index) == true
         puts turn(board)
-    end  
     end
     end
     end
