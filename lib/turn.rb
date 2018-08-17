@@ -30,7 +30,7 @@ def valid_move?(board, index)
 end
 end
 
-def turn(board, index, value="X")
+def turn(board)
   puts "Please enter 1-9:"
   if valid_move?(board, index) == true
 	  puts move(board, index, value="X") &&
