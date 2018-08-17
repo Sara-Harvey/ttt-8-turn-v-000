@@ -36,7 +36,7 @@ def turn(board)
   index = input_to_index(input)
   
   if valid_move?(board, index) == true
-	  puts move(board, index, value="X") &&
+	  move(board, index, value="X") &&
 	  display_board(board)
   else
    if valid_move?(board, index) == nil
