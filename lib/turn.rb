@@ -36,7 +36,7 @@ def turn(board, index, value="X")
 	  puts move(board, index, value="X") &&
 	  display_board(board)
   else
-   if valid_move(board, index) == false
+   if valid_move?(board, index) == false
     puts turn
       end
 end
