@@ -38,6 +38,6 @@ def turn(board, index, value="X")
    if valid_move(board, index) == false
     puts turn
       end
-
+end
 end
 end
