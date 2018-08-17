@@ -42,7 +42,7 @@ def turn(board)
    if valid_move?(board, index) == nil
     loop do
     until move_valid == true
-        puts turn
+        puts "Please enter 1-9:"
     end  
     end
     end
