@@ -44,5 +44,5 @@ def turn(board)
         puts turn
     end  
     end
-  end
+    end
 end
