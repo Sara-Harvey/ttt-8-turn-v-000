@@ -41,7 +41,7 @@ def turn(board)
   else
    if valid_move?(board, index) == nil
     loop do
-   while move_valid == nil
+   until move_valid == true
         puts turn
       end
 end
