@@ -30,7 +30,7 @@ def valid_move?(board, index)
 end
 end
 
-def turn(board, index, value="X")
+def turn(board, index, value)
   if valid_move?(board, index) == true
 	puts move(board, index, value="X") 
 	puts display_board(board)
