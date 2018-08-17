@@ -33,8 +33,8 @@ end
 def turn(board, index, value="X")
   puts "Please enter 1-9:"
   if valid_move?(board, index) == true
-	puts move(board, index, value="X") 
-	puts display_board(board)
+	  puts move(board, index, value="X") 
+	  puts display_board(board)
   else
    if valid_move(board, index) == false
     puts turn
