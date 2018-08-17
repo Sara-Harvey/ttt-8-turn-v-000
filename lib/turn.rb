@@ -39,7 +39,7 @@ def turn(board)
 	  move(board, index, value="X") &&
 	  display_board(board)
   else
-   if valid_move?(board, index) = false
+   if valid_move?(board, index) == false
     loop do
     until valid_move?(board, index) == true
         puts turn(board)
